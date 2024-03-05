@@ -24,4 +24,4 @@ jobs:
     
       - name: Execute Kintone Deployment
         run: |
-          kintone-customize-uploader --base-url ${{ secrets.KINTONE_BASE_URL }} --username ${{ secrets.KINTONE_USERNAME }} --password ${{ secrets.KINTONE_PASSWORD }} manifest/prod.json
+          kintone-customize-uploader --base-url ${{ secrets.KINTONE_BASE_URL }} --username ${{ secrets.KINTONE_USERNAME }} --password ${{ secrets.KINTONE_PASSWORD }} manifest.json
